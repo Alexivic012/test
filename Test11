@@ -1,0 +1,625 @@
+class 1 custodian_emma : custodian
+{
+property:
+  TelPosList Position1 = {{"Village Square"; 81749; 149171; -3464; 0; 0}; {"North Gate Entrance"; 81525; 143821; -3528; 0; 0}; {"East Gate Entrance"; 88342; 147329; -3400; 0; 0}; {"South Gate Entrance"; 81548; 152633; -3528; 0; 0}; {"West Gate Entrance"; 77305; 148636; -3592; 0; 0}};
+  TelPosList Position2 = {{"Village Square"; 81749; 149171; -3464; 0; 0}; {"North Gate Entrance"; 81525; 143821; -3528; 0; 0}; {"East Gate Entrance"; 88342; 147329; -3400; 0; 0}; {"South Gate Entrance"; 81548; 152633; -3528; 0; 0}; {"West Gate Entrance"; 77305; 148636; -3592; 0; 0}; {"Breka's Stronghold"; 85546; 131328; -3672; 500; 0}; {"Devil's Isle"; 43408; 206881; -3752; 500; 0}; {"Dragon Valley"; 122824; 110836; -3720; 500; 0}; {"Tanor Canyon"; 59170; 164817; -2856; 500; 0}};
+  BuySellList SellList0 = {{"pledge_shield_agit"; 10; 0.000000; 0}; {"scroll_of_escape_to_agit"; 10; 1.000000; 5}; {"deluxe_food_for_strider"; 10; 1.000000; 5}};
+  BuySellList SellList1 = {{"pledge_shield_agit"; 10; 0.000000; 0}; {"scroll_of_escape_to_agit"; 10; 1.000000; 5}; {"blessed_scroll_of_escape_to_agit"; 10; 1.000000; 3}; {"deluxe_food_for_strider"; 10; 1.000000; 10}; {"escape_scroll_godard"; 10; 1.000000; 1}; {"escape_scroll_gludio"; 10; 1.000000; 1}};
+  BuySellList SellList2 = {{"pledge_shield_agit"; 10; 0.000000; 0}; {"scroll_of_escape_to_agit"; 10; 1.000000; 5}; {"blessed_scroll_of_escape_to_agit"; 10; 1.000000; 3}; {"deluxe_food_for_strider"; 10; 1.000000; 10}; {"escape_scroll_godard"; 10; 1.000000; 1}; {"escape_scroll_gludio"; 10; 1.000000; 1}; {"ticket_cougar_chime"; 10; 0.500000; 1}; {"rp_greater_healing_potion"; 10; 1.000000; 1}; {"rp_adv_quick_step_potion"; 10; 1.000000; 1}; {"rp_adv_swift_attack_potion"; 10; 1.000000; 1}; {"rp_potion_of_acumen3"; 10; 1.000000; 1}; {"rp_fish_oil_high"; 10; 1.000000; 1}; {"rp_little_angel_wing"; 10; 1.000000; 1}; {"rp_forget_me_not_hairpin"; 10; 1.000000; 1}; {"rp_hairstyle_a_potion"; 10; 1.000000; 1}; {"rp_hairstyle_b_potion"; 10; 1.000000; 1}; {"rp_hairstyle_c_potion"; 10; 1.000000; 1}; {"rp_hairstyle_d_potion"; 10; 1.000000; 1}; {"rp_hairstyle_e_potion"; 10; 1.000000; 1}; {"rp_hairstyle_f_potion"; 10; 1.000000; 1}; {"rp_hairstyle_g_potion"; 10; 1.000000; 1}; {"rp_dye_s4c4_c"; 10; 1.000000; 1}; {"rp_dye_s4d4_c"; 10; 1.000000; 1}; {"rp_dye_c4s4_c"; 10; 1.000000; 1}; {"rp_dye_c4c4_c"; 10; 1.000000; 1}; {"rp_dye_d4s4_c"; 10; 1.000000; 1}; {"rp_dye_d4c4_c"; 10; 1.000000; 1}; {"rp_dye_i4m4_c"; 10; 1.000000; 1}; {"rp_dye_i4w4_c"; 10; 1.000000; 1}; {"rp_dye_m4i4_c"; 10; 1.000000; 1}; {"rp_dye_m4w4_c"; 10; 1.000000; 1}; {"rp_dye_w4i4_c"; 10; 1.000000; 1}; {"rp_dye_w4m4_c"; 10; 1.000000; 1}; {"rp_elixir_of_mental_strength_d"; 10; 1.000000; 1}; {"rp_elixir_of_mental_strength_b"; 10; 1.000000; 1}; {"rp_elixir_of_life_b"; 10; 1.000000; 1}};
+
+handler:
+  EventHandler MENU_SELECTED( talker, ask, reply, c0, c1 )
+  {
+    if( ask == -1 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, 9709, 15566, -4500 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 46951, 51550, -2976 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 115120, -178224, -917 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 47938, 186864, -3420 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 105918, 109759, -3170 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 85391, 16228, -3640 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, -45158, -112583, -236 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, -84141, 244623, -3729 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 83336, 147972, -3404 );
+      }
+      else if( reply == 10 )
+      {
+        myself::InstantTeleport( talker, 146783, 25808, 0 );
+      }
+      else if( reply == 11 )
+      {
+        myself::InstantTeleport( talker, 15671, 142994, -2704 );
+      }
+      else if( reply == 12 )
+      {
+        myself::InstantTeleport( talker, -12694, 122776, -3114 );
+      }
+      else if( reply == 13 )
+      {
+        myself::InstantTeleport( talker, -80826, 149775, -3043 );
+      }
+      else if( reply == 14 )
+      {
+        myself::InstantTeleport( talker, 147978, -55408, -2728 );
+      }
+      else if( reply == 15 )
+      {
+        myself::InstantTeleport( talker, 111455, 219400, -3546 );
+      }
+      else if( reply == 16 )
+      {
+        myself::InstantTeleport( talker, 83011, 53207, -1470 );
+      }
+      else if( reply == 17 )
+      {
+        myself::InstantTeleport( talker, 43826, -47688, -792 );
+      }
+      else if( reply == 18 )
+      {
+        myself::InstantTeleport( talker, 87056, -143472, -1288 );
+      }
+      else if( reply == 19 )
+      {
+        myself::InstantTeleport( talker, 47799, 186852, -3480 );
+      }
+      else if( reply == 20 )
+      {
+        myself::InstantTeleport( talker, 47799, 186852, -3480 );
+      }
+      else if( reply == 21 )
+      {
+        myself::InstantTeleport( talker, 55455, -88401, -2112 );
+      }
+      else if( reply == 22 )
+      {
+        myself::InstantTeleport( talker, -87328, 142266, -3640 );
+      }
+      else if( reply == 23 )
+      {
+        myself::InstantTeleport( talker, 73579, 142709, -3768 );
+      }
+      else if( reply == 24 )
+      {
+        myself::InstantTeleport( talker, 116966, 77075, -2688 );
+      }
+      else if( reply == 25 )
+      {
+        myself::InstantTeleport( talker, 17752, 170095, -3496 );
+      }
+      else if( reply == 26 )
+      {
+        myself::InstantTeleport( talker, 146680, 46724, -3432 );
+      }
+    }
+    if( ask == -11 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, -111729, 244329, -3548 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, -106697, 214690, -3524 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, -49853, 147089, -2784 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, -99844, 237582, -3668 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, -61096, 75103, -3483 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, -23521, 68687, -3748 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, -21967, 40543, -3292 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, -10613, 75880, -3692 );
+      }
+    }
+    if( ask == -12 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, -14914, 170016, -2993 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, -41185, 206751, -3457 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, -25283, 106820, -3416 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, -93454, 89813, -3340 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, -46933, 140882, -3036 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, -44995, 188098, -3356 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, -41056, 122646, -2989 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, -28258, 156637, -3572 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 9340, -112509, -2536 );
+      }
+      else if( reply == 10 )
+      {
+        myself::InstantTeleport( talker, -89763, 105359, -3576 );
+      }
+      else if( reply == 11 )
+      {
+        myself::InstantTeleport( talker, -68669, 115406, -3700 );
+      }
+      else if( reply == 12 )
+      {
+        myself::InstantTeleport( talker, -72153, 173346, -3676 );
+      }
+      else if( reply == 13 )
+      {
+        myself::InstantTeleport( talker, -16731, 209416, -3791 );
+      }
+      else if( reply == 14 )
+      {
+        myself::InstantTeleport( talker, -18615, 141110, -3896 );
+      }
+      else if( reply == 15 )
+      {
+        myself::InstantTeleport( talker, -27113, 62298, -3600 );
+      }
+      else if( reply == 16 )
+      {
+        myself::InstantTeleport( talker, -52800, 190526, -3480 );
+      }
+      else if( reply == 17 )
+      {
+        myself::InstantTeleport( talker, -94149, 100257, -3504 );
+      }
+      else if( reply == 18 )
+      {
+        myself::InstantTeleport( talker, 45238, 148213, -3664 );
+      }
+      else if( reply == 19 )
+      {
+        myself::InstantTeleport( talker, 95054, 81533, -3680 );
+      }
+      else if( reply == 20 )
+      {
+        myself::InstantTeleport( talker, 115583, 192261, -3488 );
+      }
+      else if( reply == 21 )
+      {
+        myself::InstantTeleport( talker, 146683, -1094, -4312 );
+      }
+    }
+    if( ask == -13 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, -717, 178964, -3804 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 20504, 189035, -3444 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 47382, 111278, -2104 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 41984, 147313, -3824 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, -53387, 188226, -4656 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 33565, 162393, -3600 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 26810, 172787, -3376 );
+      }
+    }
+    if( ask == -14 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, 113552, 134812, -3640 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 85388, 131365, -3807 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 43407, 206880, -3852 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 131130, 114596, -3820 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 174075, 45375, -4680 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 59169, 164816, -2956 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 106516, -2872, -3554 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, 87251, 85513, -3203 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 93217, 16968, -4004 );
+      }
+      else if( reply == 10 )
+      {
+        myself::InstantTeleport( talker, 91538, -12205, -2540 );
+      }
+      else if( reply == 11 )
+      {
+        myself::InstantTeleport( talker, 67096, 68814, -3748 );
+      }
+      else if( reply == 12 )
+      {
+        myself::InstantTeleport( talker, 64327, 26802, -3868 );
+      }
+      else if( reply == 13 )
+      {
+        myself::InstantTeleport( talker, 89962, 46638, -3668 );
+      }
+      else if( reply == 14 )
+      {
+        myself::InstantTeleport( talker, 91087, 182383, -3292 );
+      }
+      else if( reply == 15 )
+      {
+        myself::InstantTeleport( talker, 74591, 207655, -3132 );
+      }
+      else if( reply == 16 )
+      {
+        myself::InstantTeleport( talker, 115582, 192260, -3588 );
+      }
+      else if( reply == 17 )
+      {
+        myself::InstantTeleport( talker, 84412, 234333, -3756 );
+      }
+    }
+    if( ask == -15 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, 142064, 81299, -3100 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 153756, 8904, -4124 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 170838, 55776, -5280 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 106516, -2872, -3554 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 167046, 20303, -3428 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 165974, 37583, -3692 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 110911, 84911, -4916 );
+      }
+    }
+    if( ask == -16 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, 185318, 20217, -3364 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 163340, 91373, -3420 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 135580, 19467, -3424 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 109253, 17316, -5260 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 124903, 61991, -4073 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 181725, -7525, -3564 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 159454, -12932, -2972 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, 185960, 20364, -3336 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 131755, 114424, -3720 );
+      }
+    }
+    if( ask == -17 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, 144879, -113469, -2660 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 43804, -88011, -2880 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 86093, 230973, -3642 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, 185422, -75706, -2728 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 81274, -74539, -3640 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 52106, -54329, -3258 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 152120, 117237, -5240 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, 72819, 221156, -3540 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 146989, -67129, -3740 );
+      }
+      else if( reply == 10 )
+      {
+        myself::InstantTeleport( talker, 164563, -48146, -3636 );
+      }
+      else if( reply == 11 )
+      {
+        myself::InstantTeleport( talker, 49547, -107898, -1664 );
+      }
+      else if( reply == 12 )
+      {
+        myself::InstantTeleport( talker, 85806, -111157, -2936 );
+      }
+      else if( reply == 13 )
+      {
+        myself::InstantTeleport( talker, 48892, -115645, -3824 );
+      }
+      else if( reply == 14 )
+      {
+        myself::InstantTeleport( talker, 110703, -87869, -3264 );
+      }
+      else if( reply == 15 )
+      {
+        myself::InstantTeleport( talker, 88801, -45018, -2152 );
+      }
+      else if( reply == 16 )
+      {
+        myself::InstantTeleport( talker, 178126, -84436, -7315 );
+      }
+      else if( reply == 17 )
+      {
+        myself::InstantTeleport( talker, 74591, 207655, -3032 );
+      }
+      else if( reply == 18 )
+      {
+        myself::InstantTeleport( talker, 10608, -24895, -3664 );
+      }
+      else if( reply == 19 )
+      {
+        myself::InstantTeleport( talker, 9339, -112510, -2636 );
+      }
+      else if( reply == 20 )
+      {
+        myself::InstantTeleport( talker, 114381, -48478, -2608 );
+      }
+      else if( reply == 21 )
+      {
+        myself::InstantTeleport( talker, 110703, -87896, -3264 );
+      }
+      else if( reply == 22 )
+      {
+        myself::InstantTeleport( talker, 111036, 16084, 832 );
+      }
+      else if( reply == 23 )
+      {
+        myself::InstantTeleport( talker, 111216, 16059, 3968 );
+      }
+      else if( reply == 24 )
+      {
+        myself::InstantTeleport( talker, 116239, 17638, 6992 );
+      }
+      else if( reply == 25 )
+      {
+        myself::InstantTeleport( talker, 146990, -67128, -3640 );
+      }
+      else if( reply == 26 )
+      {
+        myself::InstantTeleport( talker, 186921, -75680, -2832 );
+      }
+      else if( reply == 27 )
+      {
+        myself::InstantTeleport( talker, 189423, -78110, -7256 );
+      }
+      else if( reply == 28 )
+      {
+        myself::InstantTeleport( talker, 185045, 59970, -7232 );
+      }
+      else if( reply == 29 )
+      {
+        myself::InstantTeleport( talker, 172278, -173568, 3480 );
+      }
+      else if( reply == 30 )
+      {
+        myself::InstantTeleport( talker, 110703, -87896, -3264 );
+      }
+    }
+    if( ask == -18 )
+    {
+      if( reply == 1 )
+      {
+        myself::InstantTeleport( talker, -16817, 207100, -3664 );
+      }
+      else if( reply == 2 )
+      {
+        myself::InstantTeleport( talker, 97786, 209303, -3040 );
+      }
+      else if( reply == 3 )
+      {
+        myself::InstantTeleport( talker, 149664, 45966, -3408 );
+      }
+      else if( reply == 4 )
+      {
+        myself::InstantTeleport( talker, -10073, 175100, -4200 );
+      }
+      else if( reply == 5 )
+      {
+        myself::InstantTeleport( talker, 18884, 115595, -6585 );
+      }
+      else if( reply == 6 )
+      {
+        myself::InstantTeleport( talker, 49301, 17223, -5293 );
+      }
+      else if( reply == 7 )
+      {
+        myself::InstantTeleport( talker, 56213, 216801, -3472 );
+      }
+      else if( reply == 8 )
+      {
+        myself::InstantTeleport( talker, 115251, 17000, 9002 );
+      }
+      else if( reply == 9 )
+      {
+        myself::InstantTeleport( talker, 154462, 121186, -3809 );
+      }
+      else if( reply == 10 )
+      {
+        myself::InstantTeleport( talker, 204192, -112349, 72 );
+      }
+      else if( reply == 11 )
+      {
+        myself::InstantTeleport( talker, -16946, 207027, -3664 );
+      }
+      else if( reply == 12 )
+      {
+        myself::InstantTeleport( talker, 10462, -25135, -3680 );
+      }
+      else if( reply == 13 )
+      {
+        myself::InstantTeleport( talker, -96803, 258958, -3616 );
+      }
+      else if( reply == 14 )
+      {
+        myself::InstantTeleport( talker, 92751, 200160, -3469 );
+      }
+      else if( reply == 15 )
+      {
+        myself::InstantTeleport( talker, 76829, 197950, -3102 );
+      }
+      else if( reply == 16 )
+      {
+        myself::InstantTeleport( talker, 125740, -40864, -3736 );
+      }
+      else if( reply == 17 )
+      {
+        myself::InstantTeleport( talker, 107929, -52248, -2408 );
+      }
+      else if( reply == 18 )
+      {
+        myself::InstantTeleport( talker, 146990, -67128, -3640 );
+      }
+      else if( reply == 19 )
+      {
+        myself::InstantTeleport( talker, 149817, -80053, -5576 );
+      }
+      else if( reply == 20 )
+      {
+        myself::InstantTeleport( talker, 124161, -74828, -2904 );
+      }
+      else if( reply == 21 )
+      {
+        myself::InstantTeleport( talker, 106414, -87799, -2920 );
+      }
+    }
+  }
+}
