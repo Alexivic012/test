@@ -1,434 +1,402 @@
-Build Log
- 	 	
-Build started: Project: IlExt, Configuration: Debug|Win32
-
-Command Lines
- 	 	
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001467403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\Virtualizer.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\Virtualizer.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001467403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001567403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\l2srv.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\l2srv.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001567403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001667403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\test.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\test.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001667403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001767403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\level_up.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\level_up.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001767403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001867403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\wc.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\wc.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001867403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001967403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\vip.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\vip.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001967403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001A67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\BuffSlot.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\BuffSlot.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001A67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001B67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\augument.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\augument.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001B67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001C67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\other_action.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\other_action.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001C67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001D67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\skill_enchant.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\skill_enchant.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001D67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001E67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\Skills.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\Skills.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001E67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001F67403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\AT.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\AT.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00001F67403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002067403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\AVE.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\AVE.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002067403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002167403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\skill_parser.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\skill_parser.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002167403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002267403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\ClanSystem.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\ClanSystem.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002267403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002367403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\olympiad_asm.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\olympiad_asm.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002367403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002467403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\login.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\login.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002467403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002567403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\iob.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\iob.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002567403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002667403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\enc.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\enc.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002667403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002767403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\pck.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\pck.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002767403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002867403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\pckHnd.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\pckHnd.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002867403160.bat"""
-Creating temporary file "c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002967403160.bat" with contents
-[
-@echo off
-
-ml64.exe /c /Cx  /nologo /Fo"Debug\ItemDistribution.asm.obj" /W3 /Zi /errorReport:prompt  /Ta".\ItemDistribution.asm"
-
-if errorlevel 1 goto VCReportError
-
-goto VCEnd
-
-:VCReportError
-
-echo Project : error PRJ0019: A tool returned an error code from "Assembling..."
-
-exit 1
-
-:VCEnd
-]
-Creating command line """c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BAT00002967403160.bat"""
-Output Window
- 	 	
-Assembling...
-'ml64.exe' is not recognized as an internal or external command,
-operable program or batch file.
-Project : error PRJ0019: A tool returned an error code from "Assembling..."
-Results
- 	 	
-Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Debug\BuildLog.htm"
-IlExt - 1 error(s), 0 warning(s)
+1>------ Build started: Project: CliExt, Configuration: Release Win32 ------
+2>------ Build started: Project: CachedExt, Configuration: Release Win32 ------
+3>------ Build started: Project: NpcExt, Configuration: Release x64 ------
+4>------ Build started: Project: KeyGenerator, Configuration: Release Win32 ------
+1>Compiling...
+4>Compiling...
+3>Compiling...
+2>Compiling...
+4>stdafx.cpp
+1>stdafx.cpp
+3>stdafx.cpp
+2>DllMain.cpp
+3>stdafx.cpp
+1>Compiling...
+1>JobHandler.cpp
+1>Job.cpp
+1>AntiBot.cpp
+1>NWindow.cpp
+2>Utils.cpp
+1>MemoryProtector.cpp
+1>.\MemoryProtector.cpp(405) : warning C4244: 'initializing' : conversion from 'time_t' to 'UINT', possible loss of data
+1>.\MemoryProtector.cpp(441) : warning C4244: 'initializing' : conversion from 'time_t' to 'UINT', possible loss of data
+1>L2Con.cpp
+1>Packet.cpp
+1>NetworkHandler.cpp
+1>.\NetworkHandler.cpp(442) : warning C4244: 'argument' : conversion from 'time_t' to 'DWORD', possible loss of data
+1>.\NetworkHandler.cpp(443) : warning C4244: 'argument' : conversion from 'time_t' to 'DWORD', possible loss of data
+1>ClientSocket.cpp
+1>CliExt.cpp
+1>CryptFile.cpp
+1>.\CryptFile.cpp(67) : warning C4244: 'initializing' : conversion from 'UINT64' to 'unsigned int', possible loss of data
+1>.\CryptFile.cpp(68) : warning C4244: 'argument' : conversion from 'UINT64' to 'size_t', possible loss of data
+1>MD5.cpp
+1>HWID.cpp
+1>Memory.cpp
+2>Logger.cpp
+1>Generating Code...
+2>ManorFix.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\hwid.cpp(148) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+2>.\ManorFix.cpp(90) : warning C4996: 'wcscpy' was declared deprecated
+2>        F:\Program Files (x86)\Microsoft Visual Studio 8\VC\include\string.h(250) : see declaration of 'wcscpy'
+2>        Message: 'This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online help for details.'
+2>.\ManorFix.cpp(93) : warning C4996: 'wcscpy' was declared deprecated
+2>        F:\Program Files (x86)\Microsoft Visual Studio 8\VC\include\string.h(250) : see declaration of 'wcscpy'
+2>        Message: 'This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online help for details.'
+2>Augmentation.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\cliext.cpp(50) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\clientsocket.cpp(53) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(161) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(341) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(371) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(394) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(455) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(328) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(414) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+2>BuffSlot.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(200) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(472) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\networkhandler.cpp(82) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+2>Quests.cpp
+2>AdminPacketHandler.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(55) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(455) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(1032) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+2>Query.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(220) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(485) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(109) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(747) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\memoryprotector.cpp(864) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+2>PacketHandler.cpp
+1>c:\users\alex\desktop\vanganthextender-experimental1\cliext\job.cpp(83) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+1>Compiling resources...
+1>Linking...
+2>Global.cpp
+1>   Creating library C:\Users\Alex\Desktop\VanganthExtender-Experimental1\Release\CliExt.lib and object C:\Users\Alex\Desktop\VanganthExtender-Experimental1\Release\CliExt.exp
+1>Embedding manifest...
+2>CachedExt.cpp
+1>Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\CliExt\Release\BuildLog.htm"
+1>CliExt - 0 error(s), 28 warning(s)
+2>PacketStat.cpp
+2>ClassExtender.cpp
+2>CUser.cpp
+2>DBConn.cpp
+2>AdminSocket.cpp
+2>CSocket.cpp
+2>Generating Code...
+2>Compiling resources...
+4>Compiling...
+3>Compiling...
+4>KeyGenerator.cpp
+3>LotteryManager.cpp
+3>GlobalObject.cpp
+3>ScriptAccessible.cpp
+3>Timer.cpp
+3>BaseAction.cpp
+3>EraSystem.cpp
+3>PostLoad.cpp
+3>NPCEventFactory.cpp
+3>SharedFactory.cpp
+3>NpcExt.cpp
+3>NpcServer.cpp
+3>NPC.cpp
+3>Log.cpp
+3>Utils.cpp
+3>Generating Code...
+3>Compiling resources...
+2>Linking...
+4>Linking...
+3>Linking...
+4>Generating code
+2>   Creating library C:\Users\Alex\Desktop\VanganthExtender-Experimental1\Release\CachedExt.lib and object C:\Users\Alex\Desktop\VanganthExtender-Experimental1\Release\CachedExt.exp
+4>Finished generating code
+3>   Creating library C:\Users\Alex\Desktop\VanganthExtender-Experimental1\x64\Release\NpcExt.lib and object C:\Users\Alex\Desktop\VanganthExtender-Experimental1\x64\Release\NpcExt.exp
+3>Embedding manifest...
+4>Embedding manifest...
+2>Embedding manifest...
+3>Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\NpcExt\x64\Release\BuildLog.htm"
+3>NpcExt - 0 error(s), 0 warning(s)
+4>Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\KeyGenerator\Release\BuildLog.htm"
+4>KeyGenerator - 0 error(s), 0 warning(s)
+2>Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\CachedExt\CachedExt\Release\BuildLog.htm"
+2>CachedExt - 0 error(s), 2 warning(s)
+5>------ Build started: Project: IlExt, Configuration: Release x64 ------
+5>Assembling...
+5> Assembling: .\Virtualizer.asm
+5>Assembling...
+5> Assembling: .\l2srv.asm
+5>Assembling...
+5> Assembling: .\test.asm
+5>Assembling...
+5> Assembling: .\level_up.asm
+5>Assembling...
+5> Assembling: .\wc.asm
+5>Assembling...
+5> Assembling: .\vip.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\BuffSlot.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\augument.asm
+5>Assembling...
+5> Assembling: .\other_action.asm
+5>Assembling...
+5> Assembling: .\skill_enchant.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\Skills.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\AT.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\AVE.asm
+5>Assembling...
+5> Assembling: .\skill_parser.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\ClanSystem.asm
+5>Assembling...
+5> Assembling: .\olympiad_asm.asm
+5>Assembling...
+5> Assembling: .\login.asm
+5>Assembling...
+5> Assembling: .\iob.asm
+5>Assembling...
+5> Assembling: .\enc.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\pck.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\pckHnd.asm
+5>Performing Custom Build Step
+5> Assembling: c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\ItemDistribution.asm
+5>Compiling...
+5>DllMain.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\dllmain.cpp(22) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>CSharedFactory.cpp
+5>CreatureSharedData.cpp
+5>Log.cpp
+5>MD5.cpp
+5>CallStack.cpp
+5>yywlexer.cpp
+5>HookManager.cpp
+5>Splash.cpp
+5>Utils.cpp
+5>Random.cpp
+5>Parser.cpp
+5>CInventory.cpp
+5>Territory.cpp
+5>MultiPartyCommandChannel.cpp
+5>UserSocket.cpp
+5>Socket.cpp
+5>IOSocket.cpp
+5>CreatureController.cpp
+5>Agit.cpp
+5>Residence.cpp
+5>WarDelay.cpp
+5>CPledge.cpp
+5>Item.cpp
+5>KillDb.cpp
+5>UserDB.cpp
+5>User.cpp
+5>ItemBonus.cpp
+5>CPet.cpp
+5>CSummon.cpp
+5>CNPC.cpp
+5>CCreature.cpp
+5>ObjectDB.cpp
+5>Door.cpp
+5>Object.cpp
+5>World.cpp
+5>SSQSystem.cpp
+5>TradeManager.cpp
+5>AccountDB.cpp
+5>HTMLCacheManager.cpp
+5>DoorGeo.cpp
+5>DoorData.cpp
+5>Geo.cpp
+5>HerbAbnormalMgr.cpp
+5>SkillMod.cpp
+5>ExData.cpp
+5>CreatureTimerHandler.cpp
+5>SystemMessage.cpp
+5>CAttackAction.cpp
+5>ClassExtender.cpp
+5>NpcSocket.cpp
+5>NpcServer.cpp
+5>DB.cpp
+5>OlympiadField.cpp
+5>OlympiadUser.cpp
+5>PartyRoom.cpp
+5>CParty.cpp
+5>Config.cpp
+5>SkillInfo.cpp
+5>CPacket.cpp
+5>L2Server.cpp
+5>PvPAnnounce.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\pvpannounce.cpp(78) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>AutoAnnounce.cpp
+5>PIN.cpp
+5>CharacterLock.cpp
+5>Rebirth.cpp
+5>KeyEngine.cpp
+5>License.cpp
+5>SubStack.cpp
+5>DailyPvP.cpp
+5>CastleSiegeManager.cpp
+5>Wedding.cpp
+5>HtmlCache.cpp
+5>HtmlFilter.cpp
+5>SchemeBuffer.cpp
+5>Auction.cpp
+5>LevelUP.cpp
+5>WorldCollision.cpp
+5>HeroSystem.cpp
+5>UserCache.cpp
+5>Fraction.cpp
+5>FractionSystem.cpp
+5>AutoStart.cpp
+5>MultiSellStat.cpp
+5>L2NetworkVote.cpp
+5>VotePage.cpp
+5>VoteSystem.cpp
+5>DnN.cpp
+5>AutoLoot.cpp
+5>LureProtection.cpp
+5>NpcMaker.cpp
+5>ChampionNpc.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\championnpc.cpp(29) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>DBNpcMaker.cpp
+5>ClanPvPStatus.cpp
+5>PKPvPStatus.cpp
+5>RaidBossStatus.cpp
+5>NpcDb.cpp
+5>DropList.cpp
+5>ClassManager.cpp
+5>ObsceneFilter.cpp
+5>AIO.cpp
+5>VoteReward.cpp
+5>VIPSystem.cpp
+5>AntiDDos.cpp
+5>TeleportBypass.cpp
+5>Bypass.cpp
+5>BuildCmdHandler.cpp
+5>TvTMatch.cpp
+5>TvT.cpp
+5>MiningSystem.cpp
+5>PartyWaitingList.cpp
+5>RecipeManager.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\recipemanager.cpp(35) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>ItemAutoConsume.cpp
+5>ItemDelivery.cpp
+5>VisualArmor.cpp
+5>InfinityShot.cpp
+5>FreightSystem.cpp
+5>ItemReuseManager.cpp
+5>ItemEnchant.cpp
+5>ItemDBEx.cpp
+5>ItemDataParser.cpp
+5>TurboBoost.cpp
+5>PostLoad.cpp
+5>OnlineMultipler.cpp
+5>Task.cpp
+5>TaskHandler.cpp
+5>AdminSocket.cpp
+5>EraSystem.cpp
+5>SiegeDataCache.cpp
+5>SiegeStat.cpp
+5>KillDeathStat.cpp
+5>MenuExtension.cpp
+5>SpiritSystem.cpp
+5>PlayerCustomizer.cpp
+5>PrivateStore.cpp
+5>Logger.cpp
+5>TeamContainer.cpp
+5>Manor.cpp
+5>TerritoryEx.cpp
+5>TerritoryData.cpp
+5>EnchantedSet.cpp
+5>OfflineSocketDB.cpp
+5>OfflineShop.cpp
+5>MultiPartyCommandChannelRegistry.cpp
+5>MPCC.cpp
+5>Multisell.cpp
+5>SpawnProtection.cpp
+5>LogControl.cpp
+5>ShadowItem.cpp
+5>Quests.cpp
+5>BuffSlots.cpp
+5>ArmorPenalty.cpp
+5>DuelUser.cpp
+5>DuelSystem.cpp
+5>DuelData.cpp
+5>Augmentation.cpp
+5>OtherAction.cpp
+5>CreatureAction.cpp
+5>PetAction.cpp
+5>PlayerAction.cpp
+5>NpcAction.cpp
+5>L2Time.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\l2time.cpp(35) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>CursedWeaponSystem.cpp
+5>CursedWeapon.cpp
+5>AutoLearn.cpp
+5>GradePenalty.cpp
+5>SkillMaster.cpp
+5>SkillReuseManager.cpp
+5>SkillEnchantDB.cpp
+5>ParserForSkillEnchant.cpp
+5>SkillDBEx.cpp
+5>MagicalShieldDefense.cpp
+5>SkillFx.cpp
+5>SkillAcquireDB.cpp
+5>OperateConditions.cpp
+5>ATSystem.cpp
+5>AVESystem.cpp
+5>InstantEffects.cpp
+5>PumpEffects.cpp
+5>SkillDataParser.cpp
+5>Exploits.cpp
+5>ResidenceDBEx.cpp
+5>PledgeDB.cpp
+5>ClanSys.cpp
+5>OlympiadSystem.cpp
+5>HerbSystem.cpp
+5>DeathPenalty.cpp
+5>CliExt.cpp
+5>LoginDb.cpp
+5>IOBufferExt.cpp
+5>Coder.cpp
+5>Encryption.cpp
+5>SocketDB.cpp
+5>MacAddress.cpp
+5>IPAddress.cpp
+5>IpBlocker.cpp
+5>IpList.cpp
+5>SocketLimiter.cpp
+5>WarehouseWithdrawList.cpp
+5>WarehouseDepositList.cpp
+5>UserInfo.cpp
+5>SummonInfo.cpp
+5>SkillList.cpp
+5>SendDoorInfo.cpp
+5>Packets.cpp
+5>PackageSendableList.cpp
+5>NpcInfo.cpp
+5>MultisellPck.cpp
+5>LoadSelectedChar.cpp
+5>ItemList.cpp
+5>InventoryUpdate.cpp
+5>CharSelectInfo.cpp
+5>CharInfo.cpp
+5>ChatManager.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\chatmanager.cpp(64) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>UserExCommand.cpp
+5>UserExPacket.cpp
+5>PacketHandler.cpp
+5>L2Ext.cpp
+5>c:\users\alex\desktop\vanganthextender-experimental1\l2ext\l2ext.cpp(42) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+5>Global.cpp
+5>Compiling resources...
+5>Linking...
+5>   Creating library C:\Users\Alex\Desktop\VanganthExtender-Experimental1\x64\Release\IlExt.lib and object C:\Users\Alex\Desktop\VanganthExtender-Experimental1\x64\Release\IlExt.exp
+5>Embedding manifest...
+5>Build log was saved at "file://c:\Users\Alex\Desktop\VanganthExtender-Experimental1\L2Ext\x64\Release\BuildLog.htm"
+5>IlExt - 0 error(s), 7 warning(s)
+========== Build: 5 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
